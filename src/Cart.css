@@ -1,0 +1,61 @@
+.cart {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart h2 {
+    font-size: 1.4em;
+    color: #333;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .cart-item-info {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .cart button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cart button:hover {
+    background-color: #c82333;
+  }
+  
+  h3 {
+    color: #333;
+    font-weight: normal;
+  }
+  /* App.css */
+
+.app-logo {
+    height: 50 px; /* Set the height of the logo */
+    margin-right: 10px; /* Space between the logo and the app name */
+    vertical-align: middle; /* Align the logo vertically with the text */
+  }
+  
+  h1 {
+    display: flex;
+    align-items: center; /* Center the logo and text vertically */
+    justify-content: center; /* Center the content horizontally */
+  }
+  .cart-item-image {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+  }
